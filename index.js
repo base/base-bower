@@ -70,7 +70,7 @@ module.exports = function(options) {
     };
 
     /**
-     * Force (re-)install and the latest version of all `dependencies`
+     * Force (re-)install the latest version of all `dependencies`
      * listed in bower.json.
      *
      * ```js
