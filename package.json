@@ -1,0 +1,67 @@
+{
+  "name": "base-bower",
+  "description": "Base plugin that adds methods for programmatically running bower commands.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/base-bower",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/base-bower",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/base-bower/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "spawn-commands": "^0.3.1"
+  },
+  "devDependencies": {
+    "base": "^0.8.1",
+    "bower-store": "^0.1.0",
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "api",
+    "cli",
+    "commands",
+    "dev",
+    "flags",
+    "install",
+    "bower",
+    "save",
+    "savedev",
+    "spawn"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "spawn-commands",
+        "base",
+        "base-task"
+      ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
