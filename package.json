@@ -1,6 +1,6 @@
 {
   "name": "base-bower",
-  "description": "Base plugin that adds methods for programmatically running bower commands.",
+  "description": "Base plugin that adds methods for programmatically installing bower packages.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/base-bower",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",

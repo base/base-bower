@@ -1,6 +1,6 @@
 # base-bower [![NPM version](https://img.shields.io/npm/v/base-bower.svg?style=flat)](https://www.npmjs.com/package/base-bower) [![NPM downloads](https://img.shields.io/npm/dm/base-bower.svg?style=flat)](https://npmjs.org/package/base-bower) [![Build Status](https://img.shields.io/travis/jonschlinkert/base-bower.svg?style=flat)](https://travis-ci.org/jonschlinkert/base-bower)
 
-> Base plugin that adds methods for programmatically running bower commands.
+> Base plugin that adds methods for programmatically installing bower packages.
 
 ## Install
 
