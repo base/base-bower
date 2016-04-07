@@ -39,14 +39,14 @@ Execute `bower install` with the given `args`, package `names` and callback.
 **Example**
 
 ```js
-app.bower('--save', ['isobject'], function(err) {
+app.bower('--save', ['bootstrap'], function(err) {
   if (err) throw err;
 });
 ```
 
-### [.bower.install](index.js#L68)
+### [.bower.install](index.js#L67)
 
-Execute `bower install` with one or more package `names`. Does not save anything to bower.json.
+Execute `bower install` with one or more package `names`.
 
 **Params**
 
@@ -56,12 +56,12 @@ Execute `bower install` with one or more package `names`. Does not save anything
 **Example**
 
 ```js
-app.bower.install('isobject', function(err) {
+app.bower.install('bootstrap', function(err) {
   if (err) throw err;
 });
 ```
 
-### [.bower.latest](index.js#L86)
+### [.bower.latest](index.js#L85)
 
 Force (re-)install the latest version of all `dependencies` listed in bower.json.
 
@@ -77,7 +77,7 @@ app.bower.latest(function(err) {
 });
 ```
 
-### [.bower.save](index.js#L106)
+### [.bower.save](index.js#L105)
 
 Execute `bower install --save` with one or more package `names`. Updates `dependencies` in bower.json.
 
@@ -94,7 +94,7 @@ app.bower.save('micromatch', function(err) {
 });
 ```
 
-### [.bower.saveDev](index.js#L129)
+### [.bower.saveDev](index.js#L128)
 
 Execute `bower install --save-dev` with one or more package `names`. Updates `devDependencies` in bower.json.
 
@@ -106,7 +106,7 @@ Execute `bower install --save-dev` with one or more package `names`. Updates `de
 **Example**
 
 ```js
-app.bower.saveDev('isobject', function(err) {
+app.bower.saveDev('bootstrap', function(err) {
   if (err) throw err;
 });
 ```

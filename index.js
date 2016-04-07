@@ -20,7 +20,7 @@ module.exports = function(options) {
      * and callback.
      *
      * ```js
-     * app.bower('--save', ['isobject'], function(err) {
+     * app.bower('--save', ['bootstrap'], function(err) {
      *   if (err) throw err;
      * });
      * ```
@@ -51,11 +51,10 @@ module.exports = function(options) {
     }
 
     /**
-     * Execute `bower install` with one or more package `names`. Does not
-     * save anything to bower.json.
+     * Execute `bower install` with one or more package `names`.
      *
      * ```js
-     * app.bower.install('isobject', function(err) {
+     * app.bower.install('bootstrap', function(err) {
      *   if (err) throw err;
      * });
      * ```
@@ -116,7 +115,7 @@ module.exports = function(options) {
      * Updates `devDependencies` in bower.json.
      *
      * ```js
-     * app.bower.saveDev('isobject', function(err) {
+     * app.bower.saveDev('bootstrap', function(err) {
      *   if (err) throw err;
      * });
      * ```
