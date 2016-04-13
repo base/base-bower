@@ -20,11 +20,13 @@
     "test": "mocha"
   },
   "dependencies": {
-    "spawn-commands": "^0.3.1"
+    "cross-spawn-async": "^2.2.1",
+    "fs-exists-sync": "^0.1.0"
   },
   "devDependencies": {
     "base": "^0.8.1",
     "bower-store": "^0.1.0",
+    "delete": "^0.3.0",
     "gulp-format-md": "^0.1.7",
     "mocha": "^2.4.5"
   },
