@@ -5,6 +5,6 @@ var Base = require('base');
 var app = new Base();
 app.use(bower());
 
-app.bower.save(['bootstrap'], function(err) {
+app.bower.save(['isobject'], function(err) {
   if (err) throw err;
 });
