@@ -17,11 +17,11 @@ module.exports = function(options) {
     if (this.isRegistered('base-bower')) return;
 
     /**
-     * Execute `bower install` with the given `args`, bower `names`
+     * Execute `bower install` with the given `args`, bower package `names`
      * and callback.
      *
      * ```js
-     * app.bower('--save', ['bootstrap'], function(err) {
+     * app.bower('--save', ['isobject'], function(err) {
      *   if (err) throw err;
      * });
      * ```
